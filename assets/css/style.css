@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  padding: auto;
+  background-image: url("/ACESSOBH/acessobh/assets/img/BGBH.svg");
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+header {
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  align-items: center;
+  margin-top: 20px;
+  max-height: 250px;
+  padding: 10px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  align-items: center;
+  font-size: 2em;
+  color: #333;
+}
+
+#container {
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#search-input {
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1em;
+  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#filters {
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#filters button,
+#buttonEnvio {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#filters button,
+#buttonEnvio :hover {
+  background-color: #0056b3;
+}
+
+#filters button:hover {
+  background-color: #2980b9;
+}
+
+/* Lista de locais */
+#location-list {
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  place-items: center;
+}
+
+#location-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#location-list ul {
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+#location-list li {
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#location-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Detalhes do local */
+/* #location-info {
+  align-content: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+#location-info {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+
+
+}
+
+#location-info h2 {
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#location-info p {
+  margin: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#location-map {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border: 0; 
+  width: 100%;
+  height: 400px; /* Ajuste a altura conforme necessário */  
+  display: none;
+}
+
+#location-image {
+  max-width: 800px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contato {
+  width: 100%;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+contactForm {
+  width: 800px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.partner-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#formMessage {
+  margin-top: 15px;
+  text-align: center;
+  color: 0056b3;
+  font-size: 1.1em;
+}
